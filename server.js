@@ -1,7 +1,6 @@
 const pool = require('./db');
 const express = require('express');
-const productRoutes = require('./src/routes/products');
-
+const productRoutes = require('./products');
 const app = express();
 
 app.get('/', (req, res) => {
