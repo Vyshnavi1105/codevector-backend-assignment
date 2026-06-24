@@ -1,4 +1,4 @@
-const pool = require('./src/db');
+const pool = require('./db');
 const express = require('express');
 const productRoutes = require('./src/routes/products');
 
